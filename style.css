@@ -38,14 +38,16 @@ input[type=text]{
     background-repeat: no-repeat;
     padding-left: 40px;
     background-position-x: 2%;
-    background-position-y: 25%;
+    background-position-y: 50%;
 
     }
     input[type=email]{ 
         background-image: url(./mail-envelope-icon-electronic-letter-260nw-1478253539.jpg);
-        background-size: 13%;
+        background-size: 10%;
         background-repeat: no-repeat;
         padding-left: 40px;
+        background-position-y:40%;
+    background-position-x: 2%;
             
         }
     
