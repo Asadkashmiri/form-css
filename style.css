@@ -4,9 +4,10 @@ body{
     /* background-image: url(https://th.bing.com/th/id/R.003b502bee66620cd2efab1bdd84a277?rik=z6m4ZUyYYR2jUA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-_g8Ft6nN9-U%2fVkT4P_Zzw7I%2fAAAAAAAACGc%2fWoqZQNK3_9k%2fs1600%2fIMG_1493.jpg&ehk=bQb1A21pepYvUHQxJvXMY51sqb8I7o0CZOAMBOMnANU%3d&risl=&pid=ImgRaw&r=0); */
 }
 body{
-background-size: 100vw 100vh;}
-]
-image{
+background-size: 100vw 100vh;
+}
+
+ image{
     width: 2px;
     height: 2px;
 }
@@ -19,18 +20,43 @@ image{
 #main #input{
     background-color: white;
     height: 28em;
-    width: 20em;
+    width: 22em;
  border-radius: 1%;
  margin-left: 10%;
 
 }
 #main #input input.field {
-    width: 85%;
+    width: 73.5%;
     height: 7%;
     margin: 2% 6%;
 border: 2px solid black;
 box-shadow: 1px 02px black;
 }
+input[type=text]{ 
+    background-image: url(./R.bae2d37c4317140a408aef6671346186);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position-x: 2%;
+    background-position-y: 25%;
+
+    }
+    input[type=email]{ 
+        background-image: url(./mail-envelope-icon-electronic-letter-260nw-1478253539.jpg);
+        background-size: 13%;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+            
+        }
+    
+    input[type=password]{ 
+        background-image: url(./OIP.cXbhulf-IHZXnryXSkBvJgHaHa);
+        background-size: 8%;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        background-position-x: 2%;
+        background-position-y: 25%;
+        }
 #main #input input.radio{
  
   margin: 5px 0px 18px 30px;
@@ -58,8 +84,8 @@ box-shadow: 1px 02px black;
  
 }
 #signup:hover{
-background-color: greenyellow;
-color: blueviolet;
+background-color: rgb(64, 36, 68);
+color: rgb(255, 0, 0);
 scale: 1.1;
 border: 2px solid black;
 box-shadow: 1px 02px black;
